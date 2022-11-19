@@ -18,9 +18,13 @@ body {
     justify-content: space-evenly;
     padding: 20px;
     background-color: rgb(0, 0, 0); 
-
-
 }
+
+.navbar #person {
+    width: 60px;
+    /* padding-right: 80px; */
+}
+
 
 #header{
     color: #ffffff;
@@ -30,7 +34,7 @@ body {
 }
 
 .navbar .menu {
-    /* color: fuchsia; */
+    color: fuchsia;
 
    
 }
@@ -59,6 +63,7 @@ body {
     display:flex;
     align-items: center;
     justify-content: space-evenly;
+    /* text-align: justify; */
 
 }
 .about #image {
@@ -87,14 +92,14 @@ width: 900px;
 /* Portfolio section three */
 
 .portfolio {
-   /* align-items: center;
-   display: flex;
-   padding: 20px;
-     */
+   align-items: center;
+   /* display: flex; */
+   padding: 100px;
+    
 }
 
-.portfolio .htm1 {
-    align-items: center;
+.portfolio .html1 {
+align-items: center;
    display: flex;
    padding: 20px;
     
@@ -122,17 +127,17 @@ width: 900px;
 
 
 .portfolio #htm {
-    width: 200px;
+    width: 500px;
 
 }
 
-portfolio #cs {
-    width: 200px;
+.portfolio #cs {
+    width: 400px;
     
 }
 
-portfolio #js {
-    width: 200px;
+.portfolio #js {
+    width: 550px;
     
 }
 
@@ -152,20 +157,39 @@ portfolio #js {
 
 /* about me section  */
 .explanation {
-    align-items: center;
-    display: inline;
-    padding: 20px;
+    /* align-items: center;
+    display: flex;
+    padding: 20px; */
 
 }
 .explanation .about{
     text-align: center;
-    color: ;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    border: 4px;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-right: 50pc;
+
+}
+
+.explanation #details {
+    align-items: center;
+    display: flex;
+    padding: 20px;
 }
 
 .explanation p{
     font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
 
+}
+.explanation img {
+    width: 400px;
 }
 
 /* footer section  */
